@@ -11,13 +11,13 @@ try {
     $mail->isSMTP();                              
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;    
-    $mail->Username   =  'ravikumarzestgeek@gmail.com';                       
-    $mail->Password   = 'lobchmmozsqmfnev'; 
+    $mail->Username   =  'ravik4591@gmail.com';                       
+    $mail->Password   = '***************';  // Go to the Gmail >> Profile >> "Manage your Google Account" >> Security >> 2-Step Verification == "ON" and App passwords ==> { Select app == "Mail" & Select device == "Windows Computer" } >> Click on the "Generate" Copy and paste here Password    
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                              
     $mail->Port       = 587;     
-    $mail->setFrom('ravikumarzestgeek@gmail.com', 'zestgeek');
-    $mail->addAddress('ravikumarzestgeek@gmail.com');
-    $mail->addReplyTo('ravikumarzestgeek@gmail.com', 'Information');
+    $mail->setFrom('ravik4591@gmail.com', 'Xposedloot');
+    $mail->addAddress('ravik4591@gmail.com');
+    $mail->addReplyTo('ravik4591@gmail.com', 'Information');
     $mail->isHTML(true);                                  
     $mail->Subject = 'This is testing Xposedloot';
     $mail->Body    = 'This is the HTML message body <b>Xposedloot!</b>';
